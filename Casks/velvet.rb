@@ -2,8 +2,8 @@ cask "velvet" do
   arch arm: "AppleSilicon", intel: "Intel"
 
   version "1.0"
-  sha256 arm:   "0000000000000000000000000000000000000000000000000000000000000000",
-         intel: "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 arm:   "ed8e062b203ad56d0f435fcadf6ce04bbfb22f074856ae0096ec9a8d78c39981",
+         intel: "9463baeadd88bb2fe2fe9dce52fa6d7f3c6e6614955622f6f732739b9beb456d"
 
   url "https://github.com/subhashhhhhh/Velvet/releases/download/v#{version}/Velvet-#{version}-#{arch}.dmg"
   name "Velvet"
